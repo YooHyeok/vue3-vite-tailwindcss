@@ -1,8 +1,6 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* 기본 CSS 리셋 및 Base 스타일 추가 */
+@tailwind base;
+/* 기본 구성 요소 및 유틸리티 클래스 */
+@tailwind components;
+/* 유틸리티 클래스 (ex: margin, padding, flexbox 등) 추가 */
+@tailwind utilities;
