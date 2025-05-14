@@ -77,3 +77,23 @@
 
 </details>
 
+<details>
+<summary style="font-size:30px; font-weight:bold; font-style:italic;">Tailwind CSS IntelliSense plugin</summary>
+
+1. Extentions 에서 Tainwind CSS IntelliSense 검색 후 설치
+2. Settings > Workspace > Extentions > Emmet > Edit in settings.json
+
+- ### [settings.json](.vscode/settings.json)
+  ```json
+  {
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.colorDecorators": "on"
+  }
+  ```
+
+이제 class 속성 값 정의시 Ctrl space 등을 통한 Tailwind CSS의 자동완성 기능을 사용할 수 있게 된다.
+
+</details>
